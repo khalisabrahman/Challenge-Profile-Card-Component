@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.bg-pattern-top{
+    
+    transform:translate(-80%, -50%); 
+    overflow: hidden;
+    z-index: 3;
+}
+
+.bg-pattern-bottom {
+    transform:translate(17%, -70%); 
+    overflow: hidden;
+    z-index: 4;
+}
+
+.card {
+    z-index: 100;
+}
