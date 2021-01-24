@@ -2,27 +2,64 @@
 body {
     margin: 0;
     padding: 0;
+    
+}
+
+.background {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 .container {
-    background-color: hsl(185, 75%, 39%);
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
+    background-color: white;
+    border-radius: 15px;
+    height: 375px;
+    width: 90%;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    height: 50vh;
 }
 
-.bg-pattern-top{
+.middle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.victor {
+    border-radius: 50%;
+    margin-top: -57px;
+    border: 5px solid white;
     
-    transform:translate(-80%, -50%); 
-    overflow: hidden;
-    z-index: 3;
 }
 
-.bg-pattern-bottom {
-    transform:translate(17%, -70%); 
-    overflow: hidden;
-    z-index: 4;
+.profile-name {
+    display: flex;
+    justify-content: center;;
 }
 
-.card {
-    z-index: 100;
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.statistic {
+    border-top: 0.5px solid rgb(128, 119, 119);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.title {
+    font-weight: bold;
 }
